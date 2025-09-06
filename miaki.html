@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <title>Miaki</title>
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="index.html">LazyPreview</a>
+                <ul class="nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a href="miaki.html">Miaki</a></li>
+                    <!-- <li><a href="devblog.html">DevBlog</a></li> -->
+                    <li><a href="about.html">About me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="jumbotron">
+        <h1>Miaki</h1>
+        <p>Miaki is a TOOL vsh remplacement for CEX/DEX</p>
+        <a href="https://github.com/cem-3000ve1/Miaki/releases/download/v3.1.0/MIAKI.vpk" class="btn btn-success"><i
+                class="icon-arrow-down icon-white"></i>Download now! </a>
+        </li>
+        <br><br>
+        <img src="https://img.shields.io/badge/license-MIT-violet" alt="License">
+        <img src="https://img.shields.io/github/last-commit/cem-3000ve1/Miaki" alt="Last Commit">
+        <img src="https://img.shields.io/github/repo-size/cem-3000ve1/Miaki" alt="Repo Size">
+        <img src="https://img.shields.io/github/stars/cem-3000ve1/Miaki" alt="Stars">
+        </br>
+    </div>
+    <div class="container main-page-content" style="margin-top: 60px;">
+        <div class="alert alert-block">
+            <h4>Warning!</h4>
+            Miaki is under developpment...
+        </div>
+        <div class="page-header">
+            <h1>How to install Miaki?
+                <small>
+                    <p>What do you need?</p>
+                </small>
+            </h1>
+            <p>First you need enso/enso_ex (enso_ex v5.X recommended)</p>
+            <p>You need a DevKit PUP It is important to note that you need a PUP Devkit of the <strong>same</strong>
+                version as your current firmware
+                <a href="https://github.com/cem-3000ve1/Miaki/releases/download/v3.1.0/MIAKI.vpk"
+                    class="btn btn-primary"><i class="icon-arrow-down icon-white"></i>Download here! </a>
+                </li>
+            </p>
+            <p>Then you need to install the VPK with VitaShell</p>
+            <h1>
+                <small>
+                    <p>Before installation</p>
+                </small>
+            </h1>
+            <p>Go to Safe mode and do Rebuild database</p>
+            <p>Download the CEX PUP if you're on a retail version or DEX if you're on a testkit
+                of the same or higher firmware that you currently have and put it on your official memory card (not the
+                SD2VITA) and put it in ux0 (or uma0): data/PSP2/UPDATE/PSP2UPDAT.PUP like that if you have a soft-brick
+                with miaki you can always restore in safe mode by updating with the memory card</p>
+            <h1>
+                <small>
+                    <p>Installation</p>
+                </small>
+            </h1>
+            <p>Open Miaki then do "Install TOOL Firmware" then I advise you to do e expired TOOL to the question
+                (henkaku works badly with the activated kit) then you have to wait 20-45 minutes for the
+                installation and then it's good! you have a firmware TOOL</p>
+        </div>
+        </p>
+        </h1>
+        <div class="page-header">
+            <div class="alert alert-info">
+                <h5>What is RTU/ROOL/REX?</h5>
+                <p>RTU: Retail-Internal Test Unit</p>
+                <p>ROOL: Retail-DevTool</p>
+                <p>REX: Retail-Debug</p>
+            </div>
+            <h1>Features</h1>
+            <h1>
+                <small>
+                    <p>
+                        What working?
+                    </p>
+                </small>
+            </h1>
+            <p>DevMode</p>
+            <p>Activate/Deactivate DEX spoof</p>
+            <p>ProductCode Switch (RTU/ROOL/REX)</p>
+            <p>APP_HOME, which works with ux0, sd0, and host0 (usbhostfs)</p>
+            <p>Activation REX spoof</p>
+            <h1>
+                <small>
+                    <p>
+                        What doesn't work?
+                    </p>
+                </small>
+            </h1>
+            <p>Neighborhood because there is no Communication Processor (CP)</p>
+            <p>Activation in ROOL spoof and RTU</p>
+            <p>When you have the spoof tool in the bottom left corner, you'll see a message saying "The backup battery
+                has failed."</p>
+            <p>And in the spoof RTU, the PS Vita is activated unlimitedly.</p>
+            <h1>
+                <small>
+                    <p>
+                        Problem
+                    </p>
+                </small>
+            </h1>
+            <p>In DevMode, the debug settings System Update, Network, PSN, System, and Libgxm will crash the console
+                (Registry issue). Otherwise, in Release Mode, everything works.</p>
+            <h1>
+                <small>
+                    <p>
+                        How to fix some issues
+                    </p>
+                </small>
+            </h1>
+            <p>
+                1. Debug settings in DevMode - you can use VshPatch or APP_HOME and replace Mini Settings for QA with
+                the eboot.bin from the testkit version. You will no longer have crashes, but some DevMode settings will
+                be missing (LIBGXM).
+                <br>
+                2. Neighborhood - No.
+                <br>
+                3. Activation in spoof TOOL - you can use Red-msg-delete to remove the red message.
+            </p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
